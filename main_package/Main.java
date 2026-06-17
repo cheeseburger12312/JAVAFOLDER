@@ -48,6 +48,7 @@ public class Main {
                     }
                 case 3:
                     subRandomMade_menu.subandomDestination();
+                    break;
             }
             break;
         }
