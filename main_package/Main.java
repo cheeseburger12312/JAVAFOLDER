@@ -5,6 +5,7 @@ import java.util.Scanner;
 import java.awt.Desktop;
 
 import main_package.Terminal_.UsedTerminal_package_main;
+import main_package.randomMade.subRandomMade_menu;
 
 public class Main {
     public static void main(String[] argument) {
@@ -16,7 +17,8 @@ public class Main {
                 System.out.println();
                 Scanner userInput = new Scanner(System.in);
                 System.out.println("Select Destination: ");
-                System.out.printf("[1].%-15s [2].%-15s%n", "Terminal", "Read only");
+                System.out.printf("[1].%-15s [3].%-15s%n" , "Terminal", "Random project");
+                System.out.printf("[2].%-15s [4].%-15s%n" , "Read Only", "EXIT");
                 System.out.println();
                 System.out.print("Enter your destination Number: ");
                 input = userInput.nextLine();
@@ -44,6 +46,8 @@ public class Main {
                     } catch (Exception e) {
                         System.out.println("failed to find the link");
                     }
+                case 3:
+                    subRandomMade_menu.subandomDestination();
             }
             break;
         }
