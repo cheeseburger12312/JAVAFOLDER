@@ -36,7 +36,7 @@ public class Main {
                     break;
                 case 2:
                     try {
-                        URI link = new URI("https://github.com/cheeseburger12312/JAVAFOLDER");
+                        URI link = new URI("https://github.com/cheeseburger12312/JAVAFOLDER/tree/main/main_package/readOnly");
 
                         if (Desktop.isDesktopSupported()) {
                             Desktop.getDesktop().browse(link);
