@@ -13,13 +13,13 @@ public class Main {
             int userChoice = 0; 
             String input;
             while (true) {
-                Scanner userInput = new Scanner(System.in);
-
-                System.out.println("Select Destination: ");
-                System.out.printf("[1].%-15s [2].%-15s%n", "Terminal use", "Read only");
-                System.out.println();
-                System.out.print("Enter your destination Number: ");
-                input = userInput.nextLine();
+                try (Scanner userInput = new Scanner(System.in)) {
+                    System.out.println("Select Destination: ");
+                    System.out.printf("[1].%-15s [2].%-15s%n", "Terminal", "Read only");
+                    System.out.println();
+                    System.out.print("Enter your destination Number: ");
+                    input = userInput.nextLine();
+                }
 
                 try {
                     userChoice = Integer.parseInt(input);
@@ -30,7 +30,7 @@ public class Main {
             }
             switch (userChoice) {
                 case 1:
-                    UsedTerminal_package_main.destination_class();
+                    UsedTerminal_package_main.destination_method();
                     break;
                 case 2:
                     try {
@@ -42,7 +42,7 @@ public class Main {
                         }
 
                     } catch (Exception e) {
-                        System.out.println("failed to do shit link not found or something");
+                        System.out.println("failed to find the link");
                     }
             }
             break;
