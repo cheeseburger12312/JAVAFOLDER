@@ -8,6 +8,7 @@ public class dataTypes_terminal {
         char productGrade = 'A';
         boolean isForSale = true;
 
+        System.out.println();
         System.out.printf("Product Name: %s%n", productName);
         System.out.printf("Item Count:  %d%n", itemCount);
         System.out.printf("%s price: %.2f%n", productName, itemPrice);

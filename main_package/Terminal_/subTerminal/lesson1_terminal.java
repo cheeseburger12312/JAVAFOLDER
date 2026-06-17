@@ -2,6 +2,7 @@ package main_package.Terminal_.subTerminal;
 
 public class lesson1_terminal {
     public static void lesson1_terminal_method() {
+        System.out.println();
         String name = "Aramis";
         String surname = "Gayon";
         int lrn = 134123123;

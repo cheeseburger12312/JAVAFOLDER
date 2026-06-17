@@ -13,13 +13,13 @@ public class Main {
             int userChoice = 0; 
             String input;
             while (true) {
-                try (Scanner userInput = new Scanner(System.in)) {
-                    System.out.println("Select Destination: ");
-                    System.out.printf("[1].%-15s [2].%-15s%n", "Terminal", "Read only");
-                    System.out.println();
-                    System.out.print("Enter your destination Number: ");
-                    input = userInput.nextLine();
-                }
+                System.out.println();
+                Scanner userInput = new Scanner(System.in);
+                System.out.println("Select Destination: ");
+                System.out.printf("[1].%-15s [2].%-15s%n", "Terminal", "Read only");
+                System.out.println();
+                System.out.print("Enter your destination Number: ");
+                input = userInput.nextLine();
 
                 try {
                     userChoice = Integer.parseInt(input);
