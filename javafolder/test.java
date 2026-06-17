@@ -4,9 +4,10 @@ public class test {
     public static void main(String[] argument) {
         String name = "Aramis";
         String surname = "Gayon";
-        System.out.printf("my name is %s%n",name);
-        System.out.printf("my name is %s%n",surname);
-
+        int lrn = 134123123;
+        System.out.printf("my name is %s ",name);
+        System.out.printf("my surname is %s%n",surname);
+        System.out.printf("Lrn: %d%n", lrn);
         System.out.println("Addition");
         System.out.println("5 + 7 = " + (5 + 7));
 
@@ -19,6 +20,11 @@ public class test {
         System.out.println("devision");
         System.out.println("2 / 6 = " + (10 / 6));
 
+        // this is single line
+
+        /*
+            this is multiple line
+        */
     }
 }
  
