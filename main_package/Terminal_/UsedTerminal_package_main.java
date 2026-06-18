@@ -2,7 +2,7 @@ package main_package.Terminal_;
 import java.util.Scanner;
 
 import main_package.Main;
-import main_package.Terminal_.subTerminal.dataTypes_terminal;
+import main_package.Terminal_.subTerminal.variable_terminal;
 import main_package.Terminal_.subTerminal.lesson1_terminal;
 
 public class UsedTerminal_package_main {
@@ -15,8 +15,8 @@ public class UsedTerminal_package_main {
                 Scanner userInput = new Scanner(System.in); 
                 System.out.println();
                 System.out.println("Select Destination: ");
-                System.out.printf("[1].%-15s [3].%-15s [5].%-15s%n", "Lesson #1", "None", "None");
-                System.out.printf("[2].%-15s [4].%-15s [6].%-15s%n", "Data Types", "None", "None");
+                System.out.printf("[1].%-15s [3].%-15s [5].%-15s%n", "Lesson #1", "", "None");
+                System.out.printf("[2].%-15s [4].%-15s [6].%-15s%n", "Variables", "None", "None");
                 System.out.println();
                 System.out.printf("[98].%-15s [99].%-15s%n", "Back", "EXIT");
                 System.out.println();
@@ -37,8 +37,8 @@ public class UsedTerminal_package_main {
                     lesson1_terminal.lesson1_terminal_method();
                     break;
                 case 2:
-                    System.out.println("User choosed [2].Data Types");
-                    dataTypes_terminal.DataType();
+                    System.out.println("User choosed [2].Variables");
+                    variable_terminal.variable_terminal_method();
                     break;
                 case 3:
                     System.out.println("No file");

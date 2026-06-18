@@ -1,0 +1,59 @@
+package main_package.Terminal_.subTerminal;
+
+public class variable_terminal_allUsed {
+    public static void main(String[] arg) { //name variable_terminal_allUsed_method
+        int serving = 8;
+        int calories = 230;
+        int fatValue = 8;
+        int fatValuePercentage = 10;
+        int saturatedFat = 1;
+        float saturatedFatPercentage = 0.5f;
+        int transFat = 0;
+
+        int cholesterolGram = 0;
+        float sodium = 160.9f;
+        int totalCarbohydrates = 37;
+        int protein = 3;
+        char vitamin = 'D';
+        int vitaminmcg = 2;
+        boolean  isSafeToDrink = true;
+
+        String Nutrition = """
+                _________________________________________________
+
+                                Nutrition Facts
+               __________________________________________________
+               %d serving per container
+               SERVING SIZE 2/3 cup(55g)
+               ==================================================
+               Amount per serving 
+               CALORIES                                       %d
+               ==================================================
+                                                    %% Daily Value
+               __________________________________________________
+               Total Fat: %d                                   %d%%   
+                    Satured Fat %dg                          %.1f%%  
+                    Trans Fat %dg
+               __________________________________________________                                
+                Cholesterol: %dmg
+                Sodium: %.1fmg      
+                Total Carbohydrates %dg
+                Protein %d               
+                Vitamin %c %dmcg 
+                Its safe to drink: %b
+               """;
+
+        String finalOutput = String.format(Nutrition, serving, calories, fatValue, fatValuePercentage, 
+                                            saturatedFat, saturatedFatPercentage, transFat, 
+                                            cholesterolGram, sodium, totalCarbohydrates, protein,
+                                            vitamin, vitaminmcg, isSafeToDrink
+
+                                        );
+        System.out.print(finalOutput);
+
+        
+        
+
+
+    } 
+}

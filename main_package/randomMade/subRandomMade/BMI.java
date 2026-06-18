@@ -2,8 +2,8 @@ package main_package.randomMade.subRandomMade;
 
 public class BMI {
     public static void BMImain() {
-        double weight = 67.2;
-        double height = 176;
+        double weight = 45;
+        double height = 152;
 
         double underweight = 18.5f;
         double normal = 25f;
