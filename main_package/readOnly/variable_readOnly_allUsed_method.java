@@ -1,7 +1,7 @@
 package main_package.readOnly;
 
-public class variable_readOnly_allUsed {
-    public static void variable_readOnly_allUsed_method() {
+public class variable_readOnly_allUsed_method {
+    public static void variable_readOnly_allVariable_Used_method() {
         int serving = 8;
         int calories = 230;
         int fatValue = 8;
