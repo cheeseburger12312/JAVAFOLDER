@@ -1,4 +1,4 @@
-package main_package.readOnly;
+package main_package.readOnly.variables;
 
 public class variable_readOnly {
     public static void dataType_readOnly_method() {

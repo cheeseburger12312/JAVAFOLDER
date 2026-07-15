@@ -1,4 +1,4 @@
-package main_package.readOnly;
+package main_package.readOnly.dataTypes;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package main_package.readOnly;
+package main_package.readOnly.variables;
 
 public class variable_readOnly_allUsed_method {
     public static void variable_readOnly_allVariable_Used_method() {

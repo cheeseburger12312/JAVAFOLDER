@@ -1,4 +1,4 @@
-package main_package.readOnly;
+package main_package.readOnly.dataTypes;
 
 public class lesson1_readOnly {
     public static void lesson1_readOnly_method() {
